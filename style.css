@@ -1,0 +1,218 @@
+body {
+    background: #1B870B;
+}
+
+.container {
+    width: 1366px;
+    height: 564px;
+}
+
+.board {
+
+}
+
+.row {
+    background: antiquewhite;
+    margin: 1em .5em;
+    height: 70px;
+}
+
+.columns {
+
+}
+
+
+.snail {
+    top: 0;
+    left: 0;
+}
+
+.snail-track {
+    margin: 1em 0;
+}
+
+.snail-img {
+    width: 66px;
+}
+
+.snail-img-1 {
+    fill: red
+}
+
+.snail-img-2 {
+    fill: black;
+}
+
+.snail-img-3 {
+    fill: white;
+}
+
+.snail-img-4 {
+    fill: #00ffd0;
+}
+
+.snail-img-5 {
+    fill: blue;
+}
+
+.snail-img-6 {
+    fill: orange;
+}
+
+.dice {
+    width: 10em;
+}
+
+.dice-edge {
+    border: solid 3px #FFF;
+    border-radius: 14%;
+    background: #FFF;
+}
+
+.dice-face {
+    width: 4em;
+    height: 4em;
+    border: solid 1px #FFF;
+    border-radius: 50%;
+}
+
+.dice-0 {
+    background: grey;
+}
+
+
+.dice-1 {
+    background: red
+}
+
+.dice-2 {
+    background: black;
+}
+
+.dice-3 {
+    background: white;
+}
+
+.dice-4 {
+    background: #00ffd0;
+}
+
+.dice-5 {
+    background: blue
+}
+
+.dice-6 {
+    background: orange;
+}
+
+/* Reusable blocks */
+.m-auto {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Animations */
+.snail-img {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    padding-left: 43px;
+}
+
+@keyframes slider-1 {
+    from {
+        padding-left: 43px;
+    }
+    to {
+        padding-left: 195px;
+    }
+}
+
+@keyframes slider-2 {
+    from {
+        padding-left: 195px;
+    }
+    to {
+        padding-left: 347px;
+    }
+}
+
+@keyframes slider-3 {
+    from {
+        padding-left: 347px;
+    }
+    to {
+        padding-left: 499px;
+    }
+}
+
+@keyframes slider-4 {
+    from {
+        padding-left: 499px;
+    }
+    to {
+        padding-left: 651px;
+    }
+}
+
+@keyframes slider-5 {
+    from {
+        padding-left: 651px;
+    }
+    to {
+        padding-left: 803px;
+    }
+}
+
+@keyframes slider-6 {
+    from {
+        padding-left: 803px;
+    }
+    to {
+        padding-left: 955px;
+    }
+}
+
+@keyframes slider-7 {
+    from {
+        padding-left: 955px;
+    }
+    to {
+        padding-left: 1107px;
+    }
+}
+
+@keyframes slider-8 {
+    from {
+        padding-left: 1107px;
+    }
+    to {
+        padding-left: 1259px;
+    }
+}
